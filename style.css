@@ -4,9 +4,47 @@ body{
     background-color: aquamarine;
     border: 1px solid black;
 }
+#top_div{
+    background-color: beige;
+    border: 5px solid blue;
+    border-radius: 30px;
+}
+#cv-div{
+    ;
+}
 #cv-heading {
+    padding: 20px;
+    background-color: bisque;
 font-size: 50px;
-border: 1px solid black;
+border: 1px ;
 text-align: center;
-border-width: 10px;
+border-radius: 20px;
+border-width: 5px;
+}
+
+#name{
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+#profession{
+text-align: center;
+font-size: 40px;
+border: 2px solid red;
+border-radius: 10px;
+background-color: yellowgreen;
+}
+#edu{
+    font-size: 30px;
+}
+#profile{
+    font-size: 30px;
+}
+.text{
+    font-size: 22px;
+    font-style: italic ;
+    background-color: darkgray;
+
 }
