@@ -1,48 +1,72 @@
-body{
-    margin: 10 px;
-    padding: 5px;
-    background-color: aquamarine;
+body {
+    /* width: 80%; */
+    margin: 10px;
+    padding: 80px;
+    background-color: rgb(234, 235, 184);
     border: 1px solid black;
 }
-#top_div{
-    background-color: beige;
-    border: 5px solid blue;
-    border-radius: 30px;
+
+#main-div {
+    border: 1px solid royalblue;
+}
+
+#top_div {
+    /* width: 50%; */
+    text-align: center;
+    /* background-color: rgb(127, 230, 242); */
+    /* border: 5px solid blue; */
+    /* border-radius: 30px; */
+}
+
+#nam-div {
+    background-color: white;
+    padding: 10px;
 }
 
 #cv-heading {
+    display: inline-block;
+    width: 95%;
     padding: 20px;
-    background-color: bisque;
-font-size: 50px;
-border: 1px ;
-text-align: center;
-border-radius: 20px;
-border-width: 5px;
+    background-color: rgb(201, 243, 177);
+    font-size: 4em;
+    text-decoration: underline;
+    font-style: italic;
+    /* border-radius: 20px; */
+    /* border: 1px solid blueviolet; */
 }
 
-#name{
-    text-align: center;
-    font-size: 50px;
-    border: 2px solid red;
+#name {
+    display: inline;
+    /* width: 100%; */
+    font-size: 4em;
+    /* border: 2px solid red; */
     border-radius: 10px;
-    background-color: cadetblue;
+    letter-spacing: 0.2em;
+    /* background-color: cadetblue; */
 }
-#profession{
-text-align: center;
-font-size: 40px;
-border: 2px solid red;
-border-radius: 10px;
-background-color: yellowgreen;
+
+#profession {
+    display: inline-block;
+    /* width: 100%; */
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 8px black;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    /* background-color: yellowgreen; */
 }
-#edu{
+
+#edu {
     font-size: 30px;
 }
-#profile{
+
+#profile {
     font-size: 30px;
 }
-.text{
+
+.text {
     font-size: 22px;
-    font-style: italic ;
+    font-style: italic;
     background-color: darkgray;
 
 }
